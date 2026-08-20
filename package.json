@@ -1,0 +1,17 @@
+{
+  "name": "chunking-demo",
+  "version": "1.0.0",
+  "description": "Demonstra 3 estrategias de chunking para RAG (recursiva, semantica, contextual retrieval) usando Anthropic e Voyage AI.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
