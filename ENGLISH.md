@@ -49,7 +49,8 @@ The sample question (src/sample-text.ts) asks about the new product without ment
   chunkers/
     recursive.ts        recursive splitting by separators
     semantic.ts         splitting by similarity between sentences
-    contextual.ts       recursive splitting + context summary via Claude```
+    contextual.ts       recursive splitting + context summary via Claude
+```
 
 Known limitations
  * Chunk size is measured in characters, not tokens, to keep the code simple to read.
