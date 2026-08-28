@@ -13,16 +13,19 @@ Command-line app that runs three chunking strategies (text splitting for RAG) on
 ## Installation
 
 ```npm install
-cp .env.example .env```
+cp .env.example .env
+```
 
 Open .env and fill in the two keys:
 
 ```ANTHROPIC_API_KEY=sk-ant-...
-VOYAGE_API_KEY=pa-...```
+VOYAGE_API_KEY=pa-...
+```
 
 How to run
 
-```npm start```
+```npm start
+```
 
 The script will:
  * Generate chunks using the three strategies on the sample text (in src/sample-text.ts — a short news piece about quarterly results and a product launch from a fictional company).
