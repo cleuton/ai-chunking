@@ -1,5 +1,7 @@
 # Demonstração de estratégias de chunking
 
+[**ENGLISH VERSION**](./ENGLISH.md)
+
 App de linha de comando que roda três estratégias de chunking (divisão de texto
 para RAG) sobre o mesmo documento de exemplo, e mostra qual chunk cada uma
 encontra pra uma mesma pergunta:
